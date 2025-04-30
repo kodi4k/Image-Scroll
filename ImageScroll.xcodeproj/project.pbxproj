@@ -11,12 +11,14 @@
 		79112B882DC128630022EC4F /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 79112B872DC128630022EC4F /* SDWebImage */; };
 		79112B8A2DC128630022EC4F /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 79112B892DC128630022EC4F /* SDWebImageMapKit */; };
 		79112BDD2DC22F9B0022EC4F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 79112BDC2DC22F9B0022EC4F /* .gitignore */; };
+		79112BDF2DC23BFB0022EC4F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 79112BDE2DC23BFB0022EC4F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79112B5E2DBFA6DE0022EC4F /* ImageScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79112B822DC0FFFA0022EC4F /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		79112BDC2DC22F9B0022EC4F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		79112BDE2DC23BFB0022EC4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -77,6 +79,7 @@
 				79112B9F2DC1FD7B0022EC4F /* Controller */,
 				79112B822DC0FFFA0022EC4F /* ImageCache.swift */,
 				79112BDC2DC22F9B0022EC4F /* .gitignore */,
+				79112BDE2DC23BFB0022EC4F /* README.md */,
 				79112B5F2DBFA6DE0022EC4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79112BDD2DC22F9B0022EC4F /* .gitignore in Resources */,
+				79112BDF2DC23BFB0022EC4F /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
