@@ -101,10 +101,10 @@ class PhotoTableViewCell: UITableViewCell {
     
     func configure(with photo: Photo) {
         photoImageView.image = nil
-        currentTask?.cancel() // Отменяем предыдущую загрузку
+        currentTask?.cancel()
         likeButton.setImage(UIImage(systemName: photo.isLiked ? "heart.fill" : "heart"), for: .normal)
         likeButton.tintColor = photo.isLiked ? .red : .black
-        activityIndicator.startAnimating() // Показываем индикатор
+        activityIndicator.startAnimating()
         if let cachedImage = ImageCache.getImage(forKey: photo.imageUrl) {
             photoImageView.image = cachedImage
             activityIndicator.stopAnimating()
@@ -123,7 +123,7 @@ class PhotoTableViewCell: UITableViewCell {
                 return
             }
             if let image = UIImage(data: data) {
-                ImageCache.setImage(image, forKey: photo.imageUrl) // Сохраняем в кэш
+                ImageCache.setImage(image, forKey: photo.imageUrl) // Сохранение в кэш
                 DispatchQueue.main.async {
                     self.photoImageView.image = image
                     self.activityIndicator.stopAnimating()

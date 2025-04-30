@@ -55,6 +55,11 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		79F6AD222DC25DB7001A4432 /* Screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 				79112B9F2DC1FD7B0022EC4F /* Controller */,
 				79112B822DC0FFFA0022EC4F /* ImageCache.swift */,
 				79112BDC2DC22F9B0022EC4F /* .gitignore */,
+				79F6AD222DC25DB7001A4432 /* Screenshots */,
 				79112BDE2DC23BFB0022EC4F /* README.md */,
 				79112B5F2DBFA6DE0022EC4F /* Products */,
 			);
@@ -112,6 +118,7 @@
 				79112B902DC1FD4A0022EC4F /* View */,
 				79112B912DC1FD6A0022EC4F /* Model */,
 				79112B9F2DC1FD7B0022EC4F /* Controller */,
+				79F6AD222DC25DB7001A4432 /* Screenshots */,
 			);
 			name = ImageScroll;
 			packageProductDependencies = (
