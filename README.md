@@ -21,3 +21,8 @@ iOS приложение для просмотра фотографий в се�
 - <img src="Screenshots/GridView.png" alt="GridView" width="200"/>
 - <img src="Screenshots/PhotoCard.png" alt="Photocard" width="200"/>
 </p>
+<p align="center">
+  <sub>Список изображений</sub> &nbsp;&nbsp;&nbsp;&nbsp;
+  <sub>Коллекция изображений</sub> &nbsp;&nbsp;&nbsp;&nbsp;
+  <sub>Карточка изображения</sub>
+</p>
