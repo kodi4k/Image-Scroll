@@ -16,7 +16,8 @@ iOS приложение для просмотра фотографий в се�
 ## Зависимости
 - SDWebImage (via Swift Package Manager)
 ## Скриншоты:
+<p align="center">
 - <img src="Screenshots/ListView.png" alt="ListView" width="300"/>
 - <img src="Screenshots/GridView.png" alt="GridView" width="300"/>
 - <img src="Screenshots/PhotoCard.png" alt="Photocard" width="300"/>
-
+</p>
