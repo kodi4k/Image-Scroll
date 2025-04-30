@@ -18,5 +18,5 @@ iOS приложение для просмотра фотографий в се�
 ## Скриншоты:
 - <img src="Screenshots/ListView.png" alt="ListView" width="300"/>
 - <img src="Screenshots/GridView.png" alt="GridView" width="300"/>
-- <img src="Screenshots/Photocard.png" alt="Photocard" width="300"/>
+- <img src="Screenshots/PhotoCard.png" alt="Photocard" width="300"/>
 
