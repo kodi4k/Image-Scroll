@@ -4,6 +4,9 @@
 xcuserdata/
 DerivedData/
 
+# Swift Package Manager
+.build/
+.swiftpm/
 
 # macOS
 .DS_Store
